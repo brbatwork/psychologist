@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284E45FA1B1BECA700D50554 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E45F91B1BECA700D50554 /* HistoryViewController.swift */; };
+		284E45FC1B1BEE9300D50554 /* DiagnosedHappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E45FB1B1BEE9300D50554 /* DiagnosedHappinessViewController.swift */; };
 		28E4F64D1B190C4A00B3A839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4F64C1B190C4A00B3A839 /* AppDelegate.swift */; };
-		28E4F64F1B190C4A00B3A839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4F64E1B190C4A00B3A839 /* ViewController.swift */; };
+		28E4F64F1B190C4A00B3A839 /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4F64E1B190C4A00B3A839 /* PsychologistViewController.swift */; };
 		28E4F6521B190C4A00B3A839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E4F6501B190C4A00B3A839 /* Main.storyboard */; };
 		28E4F6541B190C4A00B3A839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E4F6531B190C4A00B3A839 /* Images.xcassets */; };
 		28E4F6571B190C4A00B3A839 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E4F6551B190C4A00B3A839 /* LaunchScreen.xib */; };
 		28E4F6631B190C4A00B3A839 /* PsychologistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4F6621B190C4A00B3A839 /* PsychologistTests.swift */; };
+		28E4F66E1B19308C00B3A839 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4F66C1B19308C00B3A839 /* HappinessViewController.swift */; };
+		28E4F66F1B19308C00B3A839 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4F66D1B19308C00B3A839 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		284E45F91B1BECA700D50554 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		284E45FB1B1BEE9300D50554 /* DiagnosedHappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosedHappinessViewController.swift; sourceTree = "<group>"; };
 		28E4F6471B190C4A00B3A839 /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E4F64B1B190C4A00B3A839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E4F64C1B190C4A00B3A839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28E4F64E1B190C4A00B3A839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28E4F64E1B190C4A00B3A839 /* PsychologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewController.swift; sourceTree = "<group>"; };
 		28E4F6511B190C4A00B3A839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28E4F6531B190C4A00B3A839 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28E4F6561B190C4A00B3A839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		28E4F65C1B190C4A00B3A839 /* PsychologistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E4F6611B190C4A00B3A839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E4F6621B190C4A00B3A839 /* PsychologistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistTests.swift; sourceTree = "<group>"; };
+		28E4F66C1B19308C00B3A839 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HappinessViewController.swift; path = ../../Happiness/Happiness/HappinessViewController.swift; sourceTree = "<group>"; };
+		28E4F66D1B19308C00B3A839 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceView.swift; path = ../../Happiness/Happiness/FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +85,12 @@
 		28E4F6491B190C4A00B3A839 /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
-				28E4F64C1B190C4A00B3A839 /* AppDelegate.swift */,
-				28E4F64E1B190C4A00B3A839 /* ViewController.swift */,
+				28E4F66C1B19308C00B3A839 /* HappinessViewController.swift */,
+				28E4F66D1B19308C00B3A839 /* FaceView.swift */,
+				28E4F64E1B190C4A00B3A839 /* PsychologistViewController.swift */,
 				28E4F6501B190C4A00B3A839 /* Main.storyboard */,
-				28E4F6531B190C4A00B3A839 /* Images.xcassets */,
-				28E4F6551B190C4A00B3A839 /* LaunchScreen.xib */,
+				284E45FB1B1BEE9300D50554 /* DiagnosedHappinessViewController.swift */,
+				284E45F91B1BECA700D50554 /* HistoryViewController.swift */,
 				28E4F64A1B190C4A00B3A839 /* Supporting Files */,
 			);
 			path = Psychologist;
@@ -90,6 +99,9 @@
 		28E4F64A1B190C4A00B3A839 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28E4F6551B190C4A00B3A839 /* LaunchScreen.xib */,
+				28E4F6531B190C4A00B3A839 /* Images.xcassets */,
+				28E4F64C1B190C4A00B3A839 /* AppDelegate.swift */,
 				28E4F64B1B190C4A00B3A839 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E4F64F1B190C4A00B3A839 /* ViewController.swift in Sources */,
+				28E4F64F1B190C4A00B3A839 /* PsychologistViewController.swift in Sources */,
+				28E4F66E1B19308C00B3A839 /* HappinessViewController.swift in Sources */,
 				28E4F64D1B190C4A00B3A839 /* AppDelegate.swift in Sources */,
+				284E45FC1B1BEE9300D50554 /* DiagnosedHappinessViewController.swift in Sources */,
+				284E45FA1B1BECA700D50554 /* HistoryViewController.swift in Sources */,
+				28E4F66F1B19308C00B3A839 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +427,7 @@
 				28E4F6681B190C4A00B3A839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28E4F6691B190C4A00B3A839 /* Build configuration list for PBXNativeTarget "PsychologistTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +436,7 @@
 				28E4F66B1B190C4A00B3A839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
