@@ -8,17 +8,24 @@
 
 import UIKit
 
-class DiagnosedHappinessViewController : HappinessViewController {
+class DiagnosedHappinessViewController : HappinessViewController, UIPopoverPresentationControllerDelegate {
     
+    
+    private let defaults = NSUserDefaults.standardUserDefaults()
+    
+    var diagnosticHistory: [Int] {
+        get { return defaults.objectForKey(History.DefaultsKey) as? [Int] ?? [] }
+        set { defaults.setObject(newValue, forKey: History.DefaultsKey)}
+    }
     override var happiness: Int {
         didSet {
-            
+            diagnosticHistory.append(happiness)
         }
     }
-    var diagnosticHistory = [String]()
     
     private struct History {
-        static let SegueIdentifier = "Show Diagnostc History"
+        static let SegueIdentifier = "Show Diagnostic History"
+        static let DefaultsKey = "DiagnosedHistoryController.History"
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -26,10 +33,19 @@ class DiagnosedHappinessViewController : HappinessViewController {
             switch identifier {
             case History.SegueIdentifier:
                 if let tvc = segue.destinationViewController as? HistoryViewController {
+
+                    if let ppc = tvc.popoverPresentationController {
+                        ppc.delegate = self
+                    }
+                    
                     tvc.text = "\(diagnosticHistory)"
                 }
             default: break
             }
         }
+    }
+    
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
+        return UIModalPresentationStyle.None
     }
 }
